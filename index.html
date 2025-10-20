@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galaxia Interactiva de Corazones 3D</title>
+    <title>Para mi amor Madelaine</title>
     <!-- Carga Tailwind CSS para el banner de instrucciones -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Carga Three.js y OrbitControls para la escena 3D -->
@@ -86,17 +86,17 @@
     <div id="instructions" class="p-4 text-center">
         <div class="bg-indigo-900/70 p-4 rounded-xl shadow-lg max-w-sm mx-auto">
             <p class="text-sm font-semibold">
-                🌌 ¡Explora tu Galaxia de Amor!
-            </p>
+                🌌 Explora tu Galaxia Maddy 💖
+            </p>Se puede hacer zoom mi amor
             <p class="text-xs mt-1 text-gray-300">
-                Usa el <strong>ratón</strong> para rotar y la <strong>rueda</strong> para hacer zoom.
+            
             </p>
         </div>
     </div>
 
     <!-- Indicador de zoom -->
     <div id="zoom-hint">
-        🔍 Acércate al centro para descubrir un mensaje especial
+      
     </div>
 
     <!-- Controles de música -->
@@ -134,7 +134,9 @@
             "Constelaciones",
             "Susurros",
             "Estrella",
-            "Perfecto"
+            "17/10/2025"
+            
+            
         ];
         
         // --- CONTROL DE MÚSICA ---
@@ -261,24 +263,13 @@
             context.textBaseline = 'top';
             
             const letterText = [
-                "Hay momentos que parecen pequeños, pero guardan",
-                "universos enteros. Hay miradas que, aunque breves,",
-                "dibujan constelaciones en mi corazón. Y hay silencios",
-                "que hablan más que mil palabras, porque llevan todo",
-                "lo que siento por ti.",
-                "",
-                "Cada recuerdo contigo es como una estrella que",
-                "ilumina mis días, y cada risa tuya es un susurro que",
-                "quiero escuchar una y otra vez. A veces me pierdo en",
-                "pensamientos de nosotros, imaginando instantes donde",
-                "todo parece perfecto, donde el tiempo se detiene y el",
-                "mundo solo existe para que estemos juntos.",
-                "",
-                "No sé si estas palabras llegan a describir todo lo que",
-                "guardo dentro, pero sé que te pienso, que te valoro y",
-                "que, sin quererlo, ocupas un lugar importante en cada",
-                "rincón de mi mente. Solo quería que lo supieras, que",
-                "aunque no siempre lo diga, lo siento de verdad."
+                "Solo quiero que sepas que eres",
+                " muy importante para mi",
+                "y que nunca pienses lo contrario,",
+                "eres lo primero que pienso cuando",
+                "me levanto y lo único que pienso",
+                "antes de dormir.",
+    
             ];
             
             let yPosition = 140;
@@ -293,7 +284,7 @@
             context.fillStyle = '#FFAACC';
             context.font = 'italic 24px Inter';
             context.textAlign = 'right';
-            context.fillText('Con todo mi cariño', canvas.width - 60, canvas.height - 60);
+            context.fillText('Con todo mi cariño Madelaine', canvas.width - 60, canvas.height - 60);
 
             const texture = new THREE.CanvasTexture(canvas);
             const material = new THREE.SpriteMaterial({ 
